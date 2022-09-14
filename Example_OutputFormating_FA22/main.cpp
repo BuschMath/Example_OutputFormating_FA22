@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-	float num = 3;
+	double num = 9.00000000000000000001e100;
 
-	cout << showpoint << num;
+	cout << scientific << setw(20) << setprecision(100) << num;
 
 	return 0;
 }
